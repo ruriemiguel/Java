@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.generation.conta.model.conta"/>
+    <fullyQualifiedTypeName name="java.math.RoundingMode"/>
+    <fullyQualifiedTypeName name="java.math.MathContext"/>
+    <fullyQualifiedTypeName name="com.generation.conta.model.ContaInss"/>
+    <fullyQualifiedTypeName name="com.generation.conta.model.Banco"/>
+    <fullyQualifiedTypeName name="com.generation.conta.model.Conta"/>
+    <fullyQualifiedTypeName name="com.generation.conta.repository.ContaRepository"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.generation.conta.util.Cores"/>
+    <fullyQualifiedTypeName name="cores.util.Cores"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+    <fullyQualifiedTypeName name="com.generation.trabalhador.model.Gerente"/>
+    <fullyQualifiedTypeName name="com.generation.trabalhador.model.Vendedor"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.genetarion.animais.model.Cachorro"/>
+    <fullyQualifiedTypeName name="com.genetarion.animais.model.Cavalo"/>
+    <fullyQualifiedTypeName name="com.genetarion.animais.model.Preguica"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="desafio1e2e3.Data"/>
+    <fullyQualifiedTypeName name="classe.Pessoa"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="Arrays.Foreach"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package classe;
+
+public class Comida {
+
+	double frango = 0.2;
+	double peixe = 0.1;
+	double brocolis = 0.75;
+	double arroz = 0.25;
+	double feijao = 0.2;
+	
+	public void comida (double frango, double peixe, double brocolis, double feijao, double arroz) {
+		
+		this.frango = frango;
+		this.peixe = peixe;
+		this.brocolis = brocolis;
+		this.arroz = arroz;
+		this.feijao = feijao;
+	}
+	
+}

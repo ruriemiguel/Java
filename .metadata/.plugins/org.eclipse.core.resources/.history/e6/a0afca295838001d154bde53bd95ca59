@@ -1,0 +1,18 @@
+package Arrays;
+
+public class Usuario {
+
+	String nome;
+	String email;
+
+	public boolean equals(Object objeto) {
+		Usuario outro = (Usuario) objeto;
+		
+		@SuppressWarnings("unlikely-arg-type")
+		boolean nomeIgual = outro.equals(this.nome);
+		@SuppressWarnings("unlikely-arg-type")
+		boolean emailIgual = outro.equals(this.email);
+		
+		return nomeIgual && emailIgual;
+	}
+}

@@ -1,0 +1,22 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class Matrizes {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		System.out.println("Quantos alunos?");
+		int qntAlunos = leia.nextInt();
+		System.out.println("Quantas notas/aluno?");
+		int qntNotas = leia.nextInt();
+		
+		double[][] notasTurma = new double[qntAlunos][qntNotas];
+		
+		
+
+	}
+
+}

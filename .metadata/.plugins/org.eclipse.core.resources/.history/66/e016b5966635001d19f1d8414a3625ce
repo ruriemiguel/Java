@@ -1,0 +1,11 @@
+package classe;
+
+public class Comida {
+
+	public double frango = 0.2;
+	double peixe = 0.1;
+	double brocolis = 0.75;
+	double arroz = 0.25;
+	double feijao = 0.2;
+	
+}

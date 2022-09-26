@@ -1,0 +1,23 @@
+package classe.desafio;
+
+public class Pessoa {
+	
+	String nome;
+	double peso;
+	
+	Pessoa (String nome, double peso) {
+		
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	void comer (Comida comida) {
+		
+		this.peso += comida.peso;
+	}
+	
+	String apresentar () {
+		
+		return System.out.println("Me chamo "+nome+"e peso atualmente "+peso+"Kgs");
+	}
+}

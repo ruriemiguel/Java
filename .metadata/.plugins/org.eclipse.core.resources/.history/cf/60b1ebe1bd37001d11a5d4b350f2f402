@@ -1,0 +1,14 @@
+package Arrays;
+
+public class DesafioArray1 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		double nota;
+		
+		System.out.println("Usuário, quantas notas você deseja inserir?");
+	}
+
+}

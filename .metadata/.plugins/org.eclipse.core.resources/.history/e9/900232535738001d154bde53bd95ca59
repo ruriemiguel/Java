@@ -1,0 +1,11 @@
+package Arrays;
+
+public class Usuario {
+
+	String nome;
+	String email;
+	
+	public boolean equals (Obejct objeto) {
+		Usuario outro = (Usuario) objeto;
+	}
+}

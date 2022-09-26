@@ -1,0 +1,11 @@
+package classe;
+
+public class Comida {
+
+	String frango;
+	String peixe;
+	String brocolis;
+	String arroz;
+	String feijao;
+	
+}

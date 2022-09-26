@@ -1,0 +1,36 @@
+/* 3- Solicitar a idade de várias pessoas e imprimir: Total de pessoas com menos de
+21 anos. Total de pessoas com mais de 50 anos. O programa termina quando
+idade for =-99. (WHILE) */
+
+package exercicios_java;
+
+import java.util.Scanner;
+
+public class Ex3_separar_por_idade
+{
+
+	public static void main(String[] args)
+	{
+		int idade, menor21=0, maior50=0;
+		
+		Scanner leia = new Scanner (System.in);
+		
+		while(idade!=99)
+		{
+			System.out.println("\nEntre com idades: ");
+			idade=leia.nextInt();
+			
+			if (idade<=21)
+			{
+				menor21+=idade;
+			}
+			if (idade>=50)
+			{
+				maior50+=idade;
+			}
+		}
+		System.out.println("\nTotal de pessoas com mais de 50 anos é de: "+maior50);
+		System.out.println("\nTotal de pessoas com menos de 21 anos é de: "+menor21);
+	}
+
+}

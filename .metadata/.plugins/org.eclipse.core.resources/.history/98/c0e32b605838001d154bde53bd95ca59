@@ -1,0 +1,16 @@
+package Arrays;
+
+public class Usuario {
+
+	String nome;
+	String email;
+
+	public boolean equals(Object objeto) {
+		Usuario outro = (Usuario) objeto;
+		
+		boolean nomeIgual = outro.equals(this.nome);
+		boolean emailIgual = outro.equals(this.email);
+		
+		return nomeIgual && emailIgual;
+	}
+}

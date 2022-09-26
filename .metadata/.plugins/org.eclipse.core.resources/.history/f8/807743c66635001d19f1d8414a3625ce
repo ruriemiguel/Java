@@ -1,0 +1,14 @@
+package classe;
+
+public class Comida {
+	
+	public void comida (double frango, double peixe, double brocolis, double feijao) {
+		
+		this.frango = frango;
+		this.peixe = peixe;
+		this.brocolis = brocolis;
+		this.arroz = arroz;
+		this.feijao = feijao;
+	}
+	
+}

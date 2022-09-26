@@ -1,0 +1,11 @@
+package classe;
+
+public class Comida {
+
+	double frango;
+	double peixe;
+	double brocolis;
+	double arroz;
+	double feijao;
+	
+}

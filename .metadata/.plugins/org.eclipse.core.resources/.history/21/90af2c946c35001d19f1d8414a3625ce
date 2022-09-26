@@ -1,0 +1,20 @@
+package classe;
+
+public class Pessoa {
+	
+	String nomePessoa;
+	double pesoPessoa;
+	
+	
+	public void pessoa (String nomePessoa, double pesoPessoaInicial) {
+		
+		pesoPessoaInicial = pesoPessoa
+	}
+	
+	public void comer () {
+		
+		
+	}
+	
+	
+}

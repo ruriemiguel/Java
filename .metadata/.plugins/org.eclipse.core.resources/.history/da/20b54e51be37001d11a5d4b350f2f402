@@ -1,0 +1,19 @@
+package Arrays;
+
+import java.util.Scanner;
+
+public class DesafioArray1 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int nota;
+		
+		System.out.println("Usuário, quantas notas você deseja inserir?");
+		nota = leia.nextInt();
+		
+		double[] array = new double[nota];
+	}
+
+}

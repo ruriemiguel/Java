@@ -1,0 +1,47 @@
+package Arrays;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+
+		double[] notasAlunoA = new double[4];
+
+		System.out.println(Arrays.toString(notasAlunoA));
+		
+		notasAlunoA[0] = 7.5;
+		notasAlunoA[1] = 8.2;
+		notasAlunoA[2] = 9.3;
+		notasAlunoA[3] = 10;
+		
+				
+		System.out.println(Arrays.toString(notasAlunoA));
+		
+		double totalAlunoA = 0;
+		for(int i = 0; i < notasAlunoA.length; i++) {
+			
+			totalAlunoA += notasAlunoA[i];
+		}
+		
+		double media;
+		media = totalAlunoA/notasAlunoA.length;
+		
+		System.out.printf("%.2f\n",media);
+//-----------------------------------------------------------------//
+		double [] notasAlunoB = {7.5, 8.2, 9.3, 10};
+		
+		double totalAlunoB = 0;
+		for(int i = 0; i < notasAlunoA.length; i++) {
+			
+			totalAlunoA += notasAlunoA[i];
+		}
+		
+		double media2;
+		media = totalAlunoA/notasAlunoA.length;
+		
+		System.out.printf("%.2f\n",media2);
+	}
+
+}

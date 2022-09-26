@@ -1,0 +1,13 @@
+package classe;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+		
+		Pessoa p1 = new Pessoa();
+		p1.comer();
+		Comida c1 = new Comida();
+		
+	}
+
+}

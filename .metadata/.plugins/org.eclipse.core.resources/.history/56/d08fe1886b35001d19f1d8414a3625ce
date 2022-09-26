@@ -1,0 +1,18 @@
+package classe;
+
+public class Pessoa {
+	
+//	String nomePessoa;
+//	double pesoPessoa;
+	
+	Comida comida = new Comida("Parmegiana", 0.8);
+	
+	public void pessoa (String nomePessoa, double pesoPessoa) { }
+	
+	public void comer () {
+		
+		 
+	}
+	
+	
+}

@@ -1,0 +1,12 @@
+package Arrays;
+
+public class Usuario {
+
+	String nome;
+	String email;
+
+	public boolean equals(Object objeto) {
+		
+		return super.equals(obj);
+	}
+}

@@ -1,0 +1,21 @@
+package classe.desafio;
+
+public class Pessoa {
+	
+	String nomePessoa;
+	double pesoPessoa;
+	
+	
+	Pessoa (String nomePessoaInicial, double pesoPessoaInicial) {
+		
+		nomePessoaInicial = nomePessoa;
+		pesoPessoaInicial = pesoPessoa;
+	}
+	
+	public void comer () {
+		
+		
+	}
+	
+	
+}

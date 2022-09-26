@@ -1,0 +1,30 @@
+package Arrays;
+
+import java.util.Arrays;
+
+public class Exercicio {
+
+	public static void main(String[] args) {
+
+		double[] notasAlunoA = new double[3];
+
+		System.out.println(Arrays.toString(notasAlunoA));
+		
+		notasAlunoA[0] = 7.5;
+		notasAlunoA[1] = 8.2;
+		notasAlunoA[2] = 9.3;
+				
+		System.out.println(Arrays.toString(notasAlunoA));
+		
+		double total, media;
+		
+		total = notasAlunoA[0]+notasAlunoA[1]+notasAlunoA[2];
+		total/3;
+		
+		double soma = 0;
+		for(int i = 0; i < 3; i++) {
+			
+		}
+	}
+
+}
